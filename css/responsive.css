@@ -268,7 +268,8 @@
 
   .timeline-bg1 {
     background-color: black;
-    height: 50rem;
+    /* width: 100vw;  */
+    /* height: 50rem; */
   }
   .reg-heading {
     color: yellow;
@@ -287,7 +288,7 @@
 
   .timeline-bg2 {
     background-color: gold;
-    height: 37rem;
+    /* height: 37rem; */
   }
   .mentorship-heading {
     color: black;
@@ -305,7 +306,7 @@
 
   .timeline-bg3 {
     background-color: black;
-    height: 37rem;
+    /* height: 37rem; */
   }
   .coalescence-heading {
     color: yellow;
@@ -316,7 +317,7 @@
 
   .timeline-bg4 {
     background-color: gold;
-    height: 40rem;
+    /* height: 40rem; */
   }
   .pitch-heading {
     color: black;

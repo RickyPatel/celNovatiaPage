@@ -390,26 +390,69 @@ nav ul li a {
 /* Timeline Section
 --------------------------------*/
 
+.timeline_temp{
+  /* opacity:0.8; */
+  /* background-color:#ccc; */
+  /* position:fixed; */
+  height: 100vh;
+  font-size: 40px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  align-items: center;  
+}
+
+.row_temp {
+  padding: 20px 0px;
+  
+}
+
 .timeline-bg1 {
   background-color: black;
-  height: 25rem;
+  /* height: 25rem;  creating text overflow */
+  word-break: break-word;
 }
-.reg-heading {
+.reg-heading-left {
   color: yellow;
-  padding-left: 8rem;
+    font-size: 30px;
+  /* padding-left: 8rem; */
   padding-top: 4rem;
 }
-.reg-text {
-  padding-left: 8rem;
+
+.reg-heading-right {
+  color: black;
+  font-size: 30px;
+  
+  /* padding-left: 8rem; */
+  padding-top: 4rem;
+}
+
+
+.reg-text-left {
+  text-align: left;
+  font-size: 22px;
+  padding-bottom: 10px;
+  /* padding-left: 8rem; */
   color: white;
 }
+
+.reg-text-right {
+  text-align: left;
+  font-size: 22px;
+  padding-bottom: 10px;
+  /* padding-left: 8rem; */
+  color: black;
+}
+
+
 .reg-image {
   padding-top: 4rem;
 }
 /* Second div */
 .timeline-bg2 {
   background-color: gold;
-  height: 25rem;
 }
 .mentorship-heading {
   color: black;
@@ -425,7 +468,7 @@ nav ul li a {
 /* Third div */
 .timeline-bg3 {
   background-color: black;
-  height: 25rem;
+  /* height: 25rem; */
 }
 .coalescence-heading {
   color: yellow;
@@ -435,7 +478,7 @@ nav ul li a {
 /* Fourth div */
 .timeline-bg4 {
   background-color: gold;
-  height: 25rem;
+  /* height: 25rem; */
 }
 .pitch-heading {
   color: black;
