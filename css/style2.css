@@ -1,0 +1,27 @@
+.main_heading
+{
+    font-size: 10em;
+    text-transform: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+.grid
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small_icon
+{
+    height: 150px;
+    width: 250px;
+}
+@media only screen and (max-width:600px)
+{
+    .main_heading
+    {
+        font-size: 7em;
+    }
+    
+    
+}
