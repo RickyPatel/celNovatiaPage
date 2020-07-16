@@ -159,7 +159,7 @@
 @media (max-width: 480px) {
   /* Navbar */
   nav {
-    padding: 20px 15px;
+    padding: 15px 15px;
   }
   .nav-menu {
     margin-top: 40px;
@@ -173,7 +173,7 @@
     text-align: center;
     border-top: 1px solid #f7f7f7;
     line-height: 45px;
-    margin-left: 0;
+    margin-left: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -190,7 +190,7 @@
     line-height: 2rem;
     margin-top: 2rem;
     color: black;
-    font-family: "Avenir-Heavy", sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
   .abt-heading2 {
     text-align: center;
@@ -198,32 +198,50 @@
     line-height: 2rem;
     margin-top: 2rem;
     color: black;
-    font-family: "Avenir-Heavy", sans-serif;
+    font-family: 'Oswald', sans-serif;
   }
   .abt-text {
-    text-align: center;
+    width: 100%;
+    align-items: center;
+    text-align: justify;
     color: #333333;
-    margin: 0;
+    padding: 20px;
 }
   .abt-text-content {
     font-size: 14px;
+    align-items: center;
+    text-align: justify;
     line-height: 1rem;
     color: #333;
-    margin: 0 auto;
+    margin: 0px;
     color: #333333;
-    font-family: "Avenir-Regular", sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 1.75rem;
     font-size: 1.2rem;
-    width: 85%;
+    width: 100%;
     padding: 0;
-    margin-bottom: 1rem;
+    
   }
   
   /* timeline */
-
+  .timeline_temp{
+    /* opacity:0.8; */
+    /* background-color:#ccc; */
+    /* position:fixed; */
+    height: 100%;
+    font-size: 20px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+     
+  }
   .timeline-bg1 {
     background-color: black;
-    height: 50rem;
+    font-size: 20px;
+    /* width: 100vw;  */
+    /* height: 50rem; */
   }
   .reg-heading {
     color: yellow;
@@ -242,7 +260,7 @@
 
   .timeline-bg2 {
     background-color: gold;
-    height: 37rem;
+    /* height: 37rem; */
   }
   .mentorship-heading {
     color: black;
@@ -260,7 +278,7 @@
 
   .timeline-bg3 {
     background-color: black;
-    height: 37rem;
+    /* height: 37rem; */
   }
   .coalescence-heading {
     color: yellow;
@@ -271,7 +289,7 @@
 
   .timeline-bg4 {
     background-color: gold;
-    height: 40rem;
+    /* height: 40rem; */
   }
   .pitch-heading {
     color: black;
@@ -286,7 +304,7 @@
     line-height: 2rem;
     margin-top: 2rem;
     color: black;
-    font-family: "Avenir-Heavy", sans-serif;
+    font-family: "Oswald", sans-serif;
   }
   .speaker_text {
     margin-bottom: 2rem;
@@ -298,8 +316,8 @@
 
   /* Footer */
   #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 0px;
+    margin-left: 0px;
     float: none;
     display: inline-block;
   }
@@ -326,7 +344,7 @@
     text-align: center;
     border-top: 1px solid #f7f7f7;
     line-height: 45px;
-    margin-left: 0;
+    margin-left: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -336,7 +354,7 @@
     display: block;
   }
   /* About */
-  
+
   
   /* Contact */
   .contact-contact {
