@@ -27,18 +27,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
   
+  <!-- Library for animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+
   <!-- Bootstrap CSS File -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/> -->
   <script src="https://kit.fontawesome.com/ccbdce44cf.js"></script>
 
   <!-- Libraries CSS Files -->
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <link href="lib/hover/hover.min.css" rel="stylesheet">
+  <!-- <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet"> -->
+  <link href="lib/hover/hover.min.css" rel="stylesheet"> 
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -83,15 +84,14 @@
 
   <!-- start section header -->
   <div id="header" class="home">
-
     <div class="container">
-      <div class="header-content">
+      <div class="header-content" data-aos="fade-up" data-aos-duration="1200">
         <h1><span class="typed"></span></h1>
         <br></br>
         <heading class="main_heading">Novatia</heading>
         <br></br>
         <p style="font-size: 1.2em; color:white; font-weight: bold; letter-spacing: 0px; margin-top: 10px; font-family:Georgia, 'Times New Roman', Times, serif;">The premier B-Plan Competition</p>
-
+        <a href="https://www.notion.so/Website-19de0543bdeb4557a1ac6af0bfe12b0c" class=" reg-btn btn btn-outline-warning btn-lg"  target="_blank" data-aos="flip-down" data-aos-duration="900">REGISTER NOW</a>
       </div>
     </div>
   </div>
@@ -127,7 +127,7 @@
   </div>
   <br>
   <div class="fade_rule" data-aos="fade-up" data-aos-duration="500"></div>  
-  <br><br>
+  <br>
   <div class="row">
     <div class="col-md-12 abt-text"  data-aos="fade-up" data-aos-duration="500">
       <p class="abt-text-content">Novatia invites all startups & entrepreneurs who intend on taking the world by storm with their business.<br>
@@ -141,6 +141,14 @@
 
 
   <!-- start section timeline -->
+  <div class="row text-center">
+    <div class="col-md-12 abt-heading2" data-aos="flip-down" data-aos-duration="900">
+      <span>Timeline</span>
+    </div>
+  </div>
+  <br>
+  <div class="fade_rule" data-aos="fade-up" data-aos-duration="500"></div>  
+  <br>
   <div class="timeline-bg1">
     <div class="row">
       <div class="col-md-6">
@@ -189,6 +197,34 @@
     </div>
   </div>  
   <!-- end section timeline -->
+
+  <!-- BITSian Track Section starts -->
+  <br>
+  <div class="row text-center">
+    <div class="col-md-12 abt-heading" data-aos="flip-down" data-aos-duration="900">
+      <span>BITSian Track</span>
+    </div>
+  </div>
+  <br><br>
+  <div class="fade_rule" data-aos="fade-up" data-aos-duration="500"></div>  
+  <br>
+  <div class="row">
+    <div class="col-md-12 abt-text" data-aos="fade-up" data-aos-duration="500">
+      <p class="abt-text-content">Novatia is built by BITSians. To ensure it was for BITSians as well, and as a way to give back   to our institute, we launched the BITSian Track.
+        <br>
+        To participate in Novatia through the BITSian Track, the startup must have atleast one co-founder who is either a student or alumni of BITS Pilani (any campus). 
+        <br>
+        The BITSian must be actively involved in the venture for it to be eligible for the BITSian Track.
+        <br>
+        We select 10 BITSian startups exclusively for the mentorship programme, out of which 3 are guaranteed to make it to the finale. 
+        <br>
+        In the event that the startup is selected through the General Track, but is eligible for the BITSian Track, they must declare the choice they wish to pursue.
+        <br>
+        We encourage all BITSians to present their ideas and register for Novatia '21.</p>
+    </div>
+  </div>
+
+  <!-- BITSian Track Section ends -->
 
   <!-- Speaker section starts  -->
   <br>
@@ -330,61 +366,6 @@
   </div>
   <!-- Partners section ends -->
   
-
-
-  <!-- start section portfolio -->
-  <!-- <div id="gallery" class="text-center paddsection" style="background-color: gold;">
-
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>Gallery</h2>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-
-          <div class="portfolio-container">
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
-              <a class="popup-img" href="images/portfolio/1.jpeg">
-                <img src="images/portfolio/1.jpeg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
-              <a class="popup-img" href="images/portfolio/2.jpeg">
-                <img src="images/portfolio/2.jpeg"  alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
-              <a class="popup-img" href="images/portfolio/3.jpeg">
-                <img src="images/portfolio/3.jpeg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
-              <a class="popup-img" href="images/portfolio/4.jpeg">
-                <img src="images/portfolio/4.jpeg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
-              <a class="popup-img" href="images/portfolio/5.jpg">
-                <img src="images/portfolio/5.jpg" alt="img">
-              </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div> -->
-  <!-- End section portfolio -->
-
   <!-- Team section starts -->
   <br>
   <div class="row text-center">
@@ -418,6 +399,14 @@
     </div>
   </div>
   <!-- Team section ends -->
+
+  <!-- Register Button -->
+  <div class="container">
+    <br>
+    <a href="https://www.notion.so/Website-19de0543bdeb4557a1ac6af0bfe12b0c" class="btn btn-warning btn-lg btn-block"  target="_blank" data-aos="flip-down" data-aos-duration="900">REGISTER NOW</a>
+    <br><br>
+  </div>
+  <!-- Register Button -->
 
   <!-- Contact section starts -->
   <div class="contact-div">
@@ -459,27 +448,50 @@
         </div>
       </div>
     </div>
+
     <div class="container">
-      <form id="contact_form" method="POST">
+      <form method="POST" action="" id="contact_form">
+        <div class="alert">Your Message has been sent!</div>
         <div class="row mb-3">
           <div class="col">
-            <input type="text" class="form-control" name="name" id="name" placeholder="Your name" required>
+            <input type="text" class="form-control contact" name="name" id="name" placeholder="Your name" required>
           </div>
           <div class="col">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            <input type="email" class="form-control contact" name="email" id="email" placeholder="Your Email" required>
           </div>
         </div>
         <div class="mb-3">
           <textarea class="form-control ml-0"  name="message" id="message" cols="30" rows="7" placeholder="Your message" required></textarea>
         </div>
         <div class="text-center">
-          <button type="submit" class="btn btn-outline-warning">Submit</button>
+          <button type="submit" class="btn btn-outline-warning submit_button">Submit</button>
         </div>
       </form>
       <br>
+
+      <!-- starts -->
+      <!-- <div class="form">
+        <div class="alert">Your Message has been sent!</div>
+        <form id="contact_form" method="POST">
+          <div class="name_email">
+            <input type="text" name="name" id="name" class="contact" placeholder="Your Name" required>
+            <input type="email" name="email" id="email" class="contact" placeholder="Your Email" required>
+          </div>
+          <br>
+          <textarea name="message" id="message" cols="30" rows="7" placeholder="Your Message" required></textarea>
+          <br>
+          <div class="align_button"> 
+            <button type="submit" class="submit_button">Submit</button>
+          </div>
+        </form>
+        
+      </div> -->
+      <!-- ends -->
+
+
+
     </div>
-  </div>
-  
+  </div>  
   <!-- Contact section ends -->
 
   
@@ -502,7 +514,8 @@
       </div>
 
       <div class="credits">
-        Developed by <a href="https://www.linkedin.com/feed/" style="color:lavenderblush;">Saumya Bhatt</a> at BITS-Goa
+        Developed by <a href="https://www.linkedin.com/in/ricky-patel-5892201a9/" style="color:lavenderblush;" target="_blank">Ricky & </a>
+        <a href="https://www.linkedin.com/in/nishantsarangdhar/" style="color:lavenderblush;" target="_blank">Nishant</a> at BITS-Goa
       </div>
 
     </div>
@@ -514,8 +527,8 @@
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/typed/typed.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <!-- <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script> -->
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
 
   <!-- Contact Form JavaScript File -->
@@ -524,14 +537,9 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
   <script src="preloader/script.js"></script>
-  <!-- <script src="js/scroll-out.js"></script>
-  <script type="text/javaScript">
-    ScrollOut({
-      targets: '.abt-heading2, .abt-heading, p'
-    })
-  </script> -->
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
+  <!-- Animation js -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
