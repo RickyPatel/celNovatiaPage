@@ -5,14 +5,14 @@
 body {
   background: #ffffff;
   color: #898989;
-  font-family: 'Poppins', helvetica;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
   letter-spacing: 0.02em;
   overflow-x: hidden;
-  margin: 0 auto;
-  padding: 0;
+  margin: 0;
+  padding: 0px;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
@@ -285,7 +285,7 @@ nav ul li a {
     line-height: 4rem;
     margin-top: 2rem;
     color: black;
-    font-family: "Avenir-Heavy", sans-serif;
+    font-family: 'Oswald', sans-serif;
     /* transition: 0.5s;
     transform-origin: left;
     transform: scaleX(0); */
@@ -316,7 +316,7 @@ nav ul li a {
   line-height: 2.5rem;
   margin-top: 2rem;
   color: black;
-  font-family: "Avenir-Heavy", sans-serif;
+  font-family: 'Oswald', sans-serif;
   /* transition: 0.5s;
   transform-origin: left;
    transform: scaleX(0); */
@@ -358,14 +358,16 @@ nav ul li a {
     margin: 0 auto;
 }
 .abt-text-content {
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
   line-height: 1rem;
   color: #333;
   margin: 0 auto;
   color: #333333;
-  font-family: "Avenir-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.75;
-  font-size: 1.2rem;
+  
   width: 70%;
   padding: 0 20px 20px 20px;
   /* opacity: 0;
@@ -389,6 +391,12 @@ nav ul li a {
 
 /* Timeline Section
 --------------------------------*/
+.abt-section  {
+  
+  padding: 100px 0px;
+  
+}
+
 
 .timeline_temp{
   /* opacity:0.8; */
@@ -401,7 +409,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   width:100%;
-  align-items: center;  
+   
 }
 
 .row_temp {
@@ -416,14 +424,17 @@ nav ul li a {
 }
 .reg-heading-left {
   color: yellow;
-    font-size: 30px;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  padding-left:15px;
   /* padding-left: 8rem; */
   padding-top: 4rem;
 }
 
 .reg-heading-right {
   color: black;
-  font-size: 30px;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
   
   /* padding-left: 8rem; */
   padding-top: 4rem;
@@ -433,7 +444,9 @@ nav ul li a {
 .reg-text-left {
   text-align: left;
   font-size: 22px;
+  padding-left: 15px;
   padding-bottom: 10px;
+  letter-spacing: 2px;
   /* padding-left: 8rem; */
   color: white;
 }
@@ -441,7 +454,9 @@ nav ul li a {
 .reg-text-right {
   text-align: left;
   font-size: 22px;
+  padding-right: 15px;
   padding-bottom: 10px;
+  letter-spacing: 2px;
   /* padding-left: 8rem; */
   color: black;
 }
