@@ -353,7 +353,10 @@ nav ul li a {
   background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, #FFFF00 ), color-stop(0.98, white) );
 }
 .abt-text {
-    text-align: center;
+    align-items: center;
+    width: auto;
+    padding: 15px 50px;
+    text-align: justify;
     color: #333333;
     margin: 0 auto;
 }
@@ -368,7 +371,7 @@ nav ul li a {
   font-family: "Montserrat", sans-serif;
   line-height: 1.75;
   
-  width: 70%;
+  width: auto;
   padding: 0 20px 20px 20px;
   /* opacity: 0;
   transition: 0.5s;
@@ -510,7 +513,7 @@ nav ul li a {
   line-height: 3rem;
   margin-top: 2rem;
   color: black;
-  font-family: "Avenir-Heavy", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .fade_rule_speaker {
   height: 2px;
@@ -551,7 +554,7 @@ nav ul li a {
   line-height: 3rem;
   margin-top: 2rem;
   color: white;
-  font-family: "Avenir-Heavy", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .fade_rule_mentor {
   height: 2px;
@@ -655,7 +658,7 @@ nav ul li a {
   line-height: 3rem;
   margin-top: 2rem;
   color: white;
-  font-family: "Avenir-Heavy", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .contact-text {
   color: white;
@@ -667,7 +670,7 @@ nav ul li a {
 
 .contact-info i {
   font-size: 48px;
-  display: inline-block;
+  /* display: inline-block; */
   margin-bottom: 10px;
   color:black;
 }
