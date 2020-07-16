@@ -286,26 +286,26 @@ nav ul li a {
   background-image: -ms-linear-gradient(left , white 2%, #FFFF00 50%, white 98%);
   background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, #FFFF00 ), color-stop(0.98, white) );
 }
+
 .abt-text {
-    align-items: center;
-    width: auto;
-    padding: 15px 50px;
-    text-align: justify;
+  text-align: center;
     color: #333333;
     margin: 0 auto;
 }
+
 .abt-text-content {
+
   font-size: 18px;
   font-weight: 500;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   line-height: 1rem;
   color: #333;
   margin: 0 auto;
   color: #333333;
   font-family: "Montserrat", sans-serif;
   line-height: 1.75;
-  
-  width: auto;
+  font-size: 1.2rem;
+  width: 75%;
   padding: 0 20px 20px 20px;
 }
 
@@ -365,11 +365,9 @@ nav ul li a {
   color: black;
   font-size: 40px;
   font-family: 'Oswald', sans-serif;
-  
   /* padding-left: 8rem; */
   padding-top: 4rem;
 }
-
 
 .reg-text-left {
   text-align: left;
@@ -391,21 +389,12 @@ nav ul li a {
   color: black;
 }
 
-
 .reg-image {
   padding-top: 4rem;
 }
 /* Second div */
 .timeline-bg2 {
   background-color: gold;
-}
-.mentorship-heading {
-  color: black;
-  padding-top: 7.5rem;
-}
-.mentorship-text {
-  color:white;
-  padding-right: 9rem;
 }
 .mentorship-image {
   padding-top: 4rem;
@@ -415,20 +404,12 @@ nav ul li a {
   background-color: black;
   /* height: 25rem; */
 }
-.coalescence-heading {
-  color: yellow;
-  padding-left: 8rem;
-  padding-top: 7rem;
-}
 /* Fourth div */
 .timeline-bg4 {
   background-color: gold;
   /* height: 25rem; */
 }
-.pitch-heading {
-  color: black;
-  padding-top: 7rem;
-}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Speakers

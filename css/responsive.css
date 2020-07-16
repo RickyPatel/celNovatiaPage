@@ -201,29 +201,26 @@
     font-family: 'Oswald', sans-serif;
   }
   .abt-text {
-    width: 100%;
-    align-items: center;
-    text-align: justify;
+    text-align: center;
     color: #333333;
-    padding: 20px;
+    margin: 0;
 }
   .abt-text-content {
     font-size: 14px;
-    align-items: center;
-    text-align: justify;
     line-height: 1rem;
     color: #333;
-    margin: 0px;
+    margin: 0 auto;
     color: #333333;
     font-family: "Montserrat", sans-serif;
     line-height: 1.75rem;
     font-size: 1.2rem;
-    width: 100%;
+    width: 85%;
     padding: 0;
-    
-  }
+    margin-bottom: 1rem;    
+}
   
   /* timeline */
+
   .timeline_temp{
     /* opacity:0.8; */
     /* background-color:#ccc; */
@@ -234,8 +231,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100%;
-     
+    width:100%;   
   }
   .timeline-bg1 {
     background-color: black;
@@ -243,58 +239,68 @@
     /* width: 100vw;  */
     /* height: 50rem; */
   }
-  .reg-heading {
+
+  .reg-heading-left {
     color: yellow;
-    padding-left: 0;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    padding-left:0;
+    /* padding-left: 8rem; */
+    text-align: center;
     padding-top: 2rem;
-    text-align: center;
   }
-  .reg-text {
+  
+  .reg-heading-right {
+    color: black;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    /* padding-left: 8rem; */
+    padding-top: 2rem;
+  }
+  
+  .reg-text-left {
+    text-align: center;
+    font-size: 18px;
     padding-left: 0;
+    padding-bottom: 0;
+    letter-spacing: 0;
+    /* padding-left: 8rem; */
     color: white;
-    text-align: center;
   }
+  
+  .reg-text-right {
+    text-align: center;
+    font-size: 18px;
+    padding-right: 0;
+    padding-bottom: 0;
+    letter-spacing: 0;
+    /* padding-left: 8rem; */
+    color: black;
+  }
+  
   .reg-image {
-    padding-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .timeline-bg2 {
     background-color: gold;
     /* height: 37rem; */
   }
-  .mentorship-heading {
-    color: black;
-    text-align: center;
-    padding-top: 2rem;
-  }
-  .mentorship-text {
-    color:white;
-    text-align: center;
-    padding-right: 0;
-  }
   .mentorship-image {
-    padding-top: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .timeline-bg3 {
     background-color: black;
     /* height: 37rem; */
   }
-  .coalescence-heading {
-    color: yellow;
-    padding-left: 0;
-    padding-top: 2rem;
-    text-align: center;
-  }
 
   .timeline-bg4 {
     background-color: gold;
     /* height: 40rem; */
-  }
-  .pitch-heading {
-    color: black;
-    text-align: center;
-    padding-top: 2rem;
   }
 
   /* Speaker */
