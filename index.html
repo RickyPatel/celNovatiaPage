@@ -451,7 +451,7 @@
 
     <div class="container">
       <form method="POST" action="" id="contact_form">
-        <div class="alert">Your Message has been sent!</div>
+        <div class="alert text-center" style="display: none; color:gold;">Your Message has been sent!</div>
         <div class="row mb-3">
           <div class="col">
             <input type="text" class="form-control contact" name="name" id="name" placeholder="Your name" required>
@@ -461,36 +461,15 @@
           </div>
         </div>
         <div class="mb-3">
-          <textarea class="form-control ml-0"  name="message" id="message" cols="30" rows="7" placeholder="Your message" required></textarea>
+          <textarea class="form-control ml-0"  name="message" id="message" cols="30" rows="7" placeholder="Your message"></textarea>
         </div>
         <div class="text-center">
           <button type="submit" class="btn btn-outline-warning submit_button">Submit</button>
         </div>
       </form>
       <br>
-
-      <!-- starts -->
-      <!-- <div class="form">
-        <div class="alert">Your Message has been sent!</div>
-        <form id="contact_form" method="POST">
-          <div class="name_email">
-            <input type="text" name="name" id="name" class="contact" placeholder="Your Name" required>
-            <input type="email" name="email" id="email" class="contact" placeholder="Your Email" required>
-          </div>
-          <br>
-          <textarea name="message" id="message" cols="30" rows="7" placeholder="Your Message" required></textarea>
-          <br>
-          <div class="align_button"> 
-            <button type="submit" class="submit_button">Submit</button>
-          </div>
-        </form>
-        
-      </div> -->
-      <!-- ends -->
-
-
-
     </div>
+
   </div>  
   <!-- Contact section ends -->
 
@@ -532,6 +511,9 @@
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
 
   <!-- Contact Form JavaScript File -->
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-database.js"></script>
   <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
