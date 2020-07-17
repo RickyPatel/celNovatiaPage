@@ -157,31 +157,14 @@
  */
 
 @media (max-width: 480px) {
+
   /* Navbar */
-  nav {
-    padding: 15px 15px;
+
+  /* Header */
+  .novatiaLogo-header {
+    width: 80%
   }
-  .nav-menu {
-    margin-top: 40px;
-    display: none;
-    float: none;
-    width: 100%;
-  }
-  .nav-menu li {
-    float: none;
-    width: 100%;
-    text-align: center;
-    border-top: 1px solid #f7f7f7;
-    line-height: 45px;
-    margin-left: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .responsive {
-    float: right;
-    padding-top: 15px;
-    display: block;
-  }
+
   /* About */
 
   .abt-heading {

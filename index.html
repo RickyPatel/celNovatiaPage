@@ -64,27 +64,31 @@
   <div id="loader"></div>
 
   <!-- start section navbar -->
-  <nav id="main-nav">
-  
-    <div class="container">
 
-      <div class="logo">
-        <a href="../index.html"><img src="images/CEL logo.png" alt="logo"></a>
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+      <a class="navbar-brand celLogo" href="#header"><img src="images/CEL logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a href="#header" class="nav-link">HOME</a></li>
+          <li class="nav-item"><a href="#abt-div" class="nav-link">ABOUT</a></li>
+          <li class="nav-item"><a href="#timeline-div" class="nav-link">TIMELINE</a></li>
+          <li class="nav-item"><a href="#bistianTrack-div" class="nav-link">BITSian Track</a></li>
+          <li class="nav-item"><a href="#speaker-div" class="nav-link">SPEAKERS</a></li>
+          <li class="nav-item"><a href="#mentor-div" class="nav-link">MENTORS</a></li>
+          <li class="nav-item"><a href="#investor-div" class="nav-link">INVESTORS</a></li>
+          <li class="nav-item"><a href="#partner-div" class="nav-link">PARTNERS</a></li>
+          <li class="nav-item"><a href="#contact-div" class="nav-link">CONTACT US</a></li>
+        </ul>
       </div>
-
-      <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
-
-      <ul class="nav-menu list-unstyled">
-        <li><a href="#header" class="smoothScroll">Home</a></li>
-        <li><a href="#about" class="smoothScroll">About</a></li>
-        <li><a href="#gallery" class="smoothScroll">Investors</a></li>
-        <li><a href="#gallery" class="smoothScroll">Mentors</a></li>
-        <li><a href="#gallery" class="smoothScroll">Partners</a></li>
-      </ul>
-
     </div>
+    </nav>
+
   
-  </nav>
   <!-- End section navbar -->
 
 
@@ -93,10 +97,12 @@
     <div class="container">
       <div class="header-content" data-aos="fade-up" data-aos-duration="1200">
         <h1><span class="typed"></span></h1>
-        <br></br>
-        <heading class="main_heading">Novatia</heading>
-        <br></br>
-        <p style="font-size: 1.2em; color:white; font-weight: bold; letter-spacing: 0px; margin-top: 10px; font-family:Georgia, 'Times New Roman', Times, serif;">The premier B-Plan Competition</p>
+        <!-- <br></br> -->
+        <br>
+        <!-- <heading class="main_heading">Novatia</heading> -->
+        <img class="novatiaLogo-header" src="/images/novatiaLogo.png" alt="">
+        <!-- <br></br> -->
+        <p style="font-size: 1.2em; color:white; font-weight: bold; letter-spacing: 0px; margin-top: 10px;">The premier B-Plan Competition</p>
         <a href="https://www.notion.so/Website-19de0543bdeb4557a1ac6af0bfe12b0c" class=" reg-btn btn btn-outline-warning btn-lg"  target="_blank" data-aos="flip-down" data-aos-duration="900">REGISTER NOW</a>
       </div>
     </div>
@@ -106,7 +112,7 @@
 
   <!-- start section about us -->
   <br>
-  <div class="row text-center">
+  <div class="row text-center" id="abt-div">
     <div class="col-md-12 abt-heading" data-aos="flip-down" data-aos-duration="900">
       <span>About Us</span>
     </div>
@@ -148,7 +154,7 @@
 
   <!-- start section timeline -->
 
-<div class="row text-center">
+<div class="row text-center" id="timeline-div">
     <div class="col-md-12 abt-heading2" data-aos="flip-down" data-aos-duration="900">
       <span>Timeline</span>
     </div>
@@ -212,7 +218,7 @@
   <!-- BITSian Track Section starts -->
   <br>
   <div class="row text-center">
-    <div class="col-md-12 abt-heading" data-aos="flip-down" data-aos-duration="900">
+    <div class="col-md-12 abt-heading" id="bistianTrack-div" data-aos="flip-down" data-aos-duration="900">
       <span>BITSian Track</span>
     </div>
   </div>
@@ -239,7 +245,7 @@
 
   <!-- Speaker section starts  -->
   <br>
-  <div class="text-center">
+  <div class="text-center" id="speaker-div">
     <div class="speaker-heading" data-aos="flip-down" data-aos-duration="900">
       <span class="">SPEAKERS</span>
     </div>
@@ -272,7 +278,7 @@
   <!-- Speaker section ends -->
 
   <!-- Mentors section starts  -->
-  <div class="mentor-div">
+  <div class="mentor-div" id="mentor-div">
     <br>
     <div class="text-center">
       <div class="mentor-heading" data-aos="flip-down" data-aos-duration="900">
@@ -309,7 +315,7 @@
 
   <!-- Investors section starts -->
   <br>
-  <div class="text-center">
+  <div class="text-center" id="investor-div">
     <div class="speaker-heading" data-aos="flip-down" data-aos-duration="900">
       <span class="">INVESTORS</span>
     </div>
@@ -342,7 +348,7 @@
   <!-- Investors section ends -->
 
   <!-- Partners section starts  -->
-  <div class="mentor-div">
+  <div class="mentor-div" id="partner-div">
     <br>
     <div class="text-center">
       <div class="mentor-heading" data-aos="flip-down" data-aos-duration="900">
@@ -420,7 +426,7 @@
   <!-- Register Button -->
 
   <!-- Contact section starts -->
-  <div class="contact-div">
+  <div class="contact-div" id="contact-div">
     <br>
     <div class="text-center">
       <div class="contact-heading" data-aos="flip-down" data-aos-duration="900">
