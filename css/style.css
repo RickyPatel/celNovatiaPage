@@ -165,7 +165,7 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif; !important
   font-size: 14px;
   margin-left: 40px;
 }
