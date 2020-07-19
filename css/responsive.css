@@ -157,6 +157,10 @@
  */
 
 @media (max-width: 480px) {
+
+  html, body  {
+    overflow-x: hidden;
+  }
   /* Navbar */
   nav {
     padding: 15px 15px;
