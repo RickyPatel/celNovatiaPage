@@ -247,14 +247,16 @@
     /* width: 100vw;  */
     /* height: 50rem; */
   }
+
   .reg-heading {
     color: yellow;
     padding-left: 0;
     padding-top: 2rem;
     text-align: center;
   }
+
   .reg-text-left .reg-text-right {
-    font-size: 16px;
+    font-size: 16px !important; 
     padding-left: 0;
     color: white;
     text-align: left;

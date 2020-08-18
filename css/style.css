@@ -250,8 +250,14 @@ nav ul li a {
   font-size: 15px;
 }
 .header-content .reg-btn {
+  cursor: pointer;
   width: fit-content;
+  color: black;
+  opacity: 1;
+  transition: 0.3s;
+  background-color: #FFc60b;
 }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  About-us
@@ -347,13 +353,15 @@ nav ul li a {
   
 }
 
+
 .timeline-bg1 {
   background-color: black;
   /* height: 25rem;  creating text overflow */
   word-break: break-word;
 }
 .reg-heading-left {
-  color: yellow;
+  color: #ffc60b;
+  letter-spacing: 2.5px;
   font-size: 40px;
   font-family: 'Oswald', sans-serif;
   padding-left:15px;
@@ -363,6 +371,7 @@ nav ul li a {
 
 .reg-heading-right {
   color: black;
+  letter-spacing: 2.5px;
   font-size: 40px;
   font-family: 'Oswald', sans-serif;
   
