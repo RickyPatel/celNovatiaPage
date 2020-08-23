@@ -213,6 +213,9 @@ nav ul li a {
   width: auto;
 }
 
+.novatiaLogo-header {
+  width: 40%;
+}
 
 #header .header-content {
   height: 100vh;
