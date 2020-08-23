@@ -253,19 +253,28 @@
     /* height: 50rem; */
   }
 
-  .reg-heading {
-    color: yellow;
-    padding-left: 0;
+  .reg-heading-right {
+    color: black;
+    padding-left: 15px;
     padding-top: 2rem;
-    text-align: center;
+    text-align: left;
   }
 
-  .reg-text-left .reg-text-right {
-    font-size: 16px !important; 
-    padding-left: 0;
+  .reg-text-left {
+    font-size: 16px; 
+    padding-left: 15px;
     color: white;
     text-align: left;
   }
+
+  .reg-text-right {
+    font-size: 16px; 
+    padding-left: 15px;
+    color: black;
+    text-align: left;
+
+  }
+  
   .reg-image {
     padding-top: 0;
   }
