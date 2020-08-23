@@ -186,6 +186,11 @@
     padding-top: 15px;
     display: block;
   }
+
+  .novatiaLogo-header {
+    width: 40%;
+    height: auto;
+  }
   /* About */
 
   .abt-heading {
